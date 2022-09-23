@@ -50,7 +50,10 @@ class HomePageState extends State<HomePage> {
             TextField(
               controller: controller,
               decoration: InputDecoration(
-                border: const OutlineInputBorder(),
+                fillColor: Colors.white,
+                filled: true,
+                border: InputBorder.none,
+                //const OutlineInputBorder(),
                 labelText: 'Enter you category',
                 suffixIcon: IconButton(
                   onPressed: () {
